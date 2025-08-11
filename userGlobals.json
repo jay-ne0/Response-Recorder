@@ -1,0 +1,75 @@
+{
+	"id": "9de4ecdd-0f00-4835-8d5c-ee4728a11825",
+	"values": [
+		{
+			"key": "BEARER_ENDPOINT",
+			"value": "https://identity.filevine.com/connect/token",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "SCOPE",
+			"value": "fv.api.gateway.access tenant filevine.v2.api.* openid email fv.auth.tenant.read",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "GRANT_TYPE",
+			"value": "personal_access_token",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "USER+ORG_TOKEN_ENDPOINT",
+			"value": "https://api.filevineapp.com/fv-app/v2/utils/GetUserOrgsWithToken",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "TENANT_URL",
+			"value": "https://beta.api.filevineapp.com",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "CLIENT_ID",
+			"value": "85105ea4-32f5-4a4f-ae88-51d0c61b4ba5",
+			"type": "secret",
+			"enabled": true
+		},
+		{
+			"key": "CLIENT_SECRET",
+			"value": "0Vlgbc0qu~O&WMJg)gaev^wAS",
+			"type": "secret",
+			"enabled": true
+		},
+		{
+			"key": "PAT_TOKEN",
+			"value": "CC78F5117FE0267C10DD6E6420409CCB5163A384448A0C2E524628EC17C7D00C",
+			"type": "secret",
+			"enabled": true
+		},
+		{
+			"key": "BEARER_TOKEN",
+			"value": "eyJhbGciOiJSUzUxMiIsImtpZCI6Ijg2NjRFMkY0MDNCQjIxMzk2MzQ4NUFDOEI0MzVGMEJBOTgxNTBFN0RSUzUxMiIsInR5cCI6ImF0K2p3dCIsIng1dCI6ImhtVGk5QU83SVRsalNGckl0RFh3dXBnVkRuMCJ9.eyJuYmYiOjE3NTMyMTQ0NTEsImV4cCI6MTc1MzIxNjI1MSwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS5maWxldmluZS5jb20iLCJhdWQiOlsiZmlsZXZpbmUudjIuYXBpIiwiZnYuYXBpLmdhdGV3YXkiLCJmdi5hdXRoIl0sImNsaWVudF9pZCI6Ijg1MTA1ZWE0LTMyZjUtNGE0Zi1hZTg4LTUxZDBjNjFiNGJhNSIsInN1YiI6ImNiYWM1NGY3LTkwNjQtNGQ5YS1hNzUyLWYxYTMxMGU2MmJjYSIsImF1dGhfdGltZSI6MTc1MzIxNDQ1MSwiaWRwIjoibG9jYWwiLCJwYXRfaWQiOiJJTlJWbDNqTm1LSk9ybkFnMHpkUkE2OUpLbHFZZ3QzSytURmxOSjBQejRjPSIsInBhdF9uYW1lIjoiSmF5bmVfSG9jX1Rva2VuIiwicGF0X3ZlcnNpb24iOiIxIiwidGVuYW50X2ZybiI6ImZybjpmaWxldmluZTp1cy1wcm9kOmZpbGV2aW5lLWFwcDo6OnRlbmFudFxcNmVkYzdmYTgtYTFkNi00N2I0LTliYWQtMDE3YmFkMjhjODg1IiwidGVuYW50X2lkIjoiNmVkYzdmYTgtYTFkNi00N2I0LTliYWQtMDE3YmFkMjhjODg1IiwianRpIjoiMTFBQzNDQjEzOTE2REY3MjAzQkYyQzI2RjUwQTE1OUEiLCJpYXQiOjE3NTMyMTQ0NTEsInNjb3BlIjpbImVtYWlsIiwiZmlsZXZpbmUudjIuYXBpLioiLCJmdi5hcGkuZ2F0ZXdheS5hY2Nlc3MiLCJmdi5hdXRoLnRlbmFudC5yZWFkIiwib3BlbmlkIiwidGVuYW50Il0sImFtciI6WyJwZXJzb25hbF9hY2Nlc3NfdG9rZW4iXX0.bbQWDqoWo7GpZzqgC2HLdJ1uGqZIM47eLeO2eHKuT06-z-X4o8o-mLwLiyuWg55oOiQ_2flf8mFb0u8cJMIYHuqIfjPzxKF0_g4Un8zBKCDOgbceB3yA5NpcB4t-lALNFom4OujbL4jJBJ_jzUfMfpBuc9n0iji3FplOIFbCGLmzzhOq30faDh1PKlRvRzk0VXlpqEiL_BWTh43Yr1Z-KCItFSpB2pWgH_s1CikfghcnluIXm-fap41wWX2uPThx4FpylmrtO7XQ_D_gLP45a_EG3rKJhHhYtC-TX1lv_z4bLIfYUNxQF5Kbz0JeZVvDZxfrI8v6q4Y0dG-xJRcqHA",
+			"type": "secret",
+			"enabled": true
+		},
+		{
+			"key": "FV_ORGID",
+			"value": 990000015,
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "FV_USERID",
+			"value": 990019986,
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2025-07-22T20:01:24.979Z",
+	"_postman_exported_using": "Postman/11.55.1"
+}
